@@ -2,7 +2,7 @@
 Simple project demonstrantes how to use MVVM pattern in WPF desktop application.
 Project also demonstrates how to add Command and CommandParameter attributes to visual WPF elements (only Button has it out-of-the-box)
 
-There was used Microsoft.Xaml.Behaviors.Wpf library which equip Border, Grid, etc. in EventTrigger element which gives Command and CommandParameter attributes. 
+Use of Microsoft.Xaml.Behaviors.Wpf library equip Border, Grid, etc. in EventTrigger element which gives them opportunity to use Command and CommandParameter attributes. 
 These are required in MVVM app architecture to handle mouse, keyboard or touch events on visual elements.
 
 Solution contains two projects:
